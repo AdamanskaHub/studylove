@@ -159,12 +159,18 @@
 export const jay = [
 	{
 		intro: [
-			{ 'other': 'KKKKKJJJJHHHH', 'pic': '/jay_smirk.svg'},
+			{ 'txt': 'Hey, welcome.', 'pic': '/jay_neutral.svg'},
 			{ 'other': 'otherrrruuuuuu' },
 		],
 		cheerup: [
-			{ 'other': 'cheeeer' },
-			{ 'other': 'cheer' },
-		]
+			[
+				{ 'other': 'cheeeer' },
+				{ 'other': 'cheer' },
+			],
+			[
+				{ 'other': 'cheeeer2222' },
+				{ 'other': 'cheer2222' },
+			],
+		],
 	},
 ]

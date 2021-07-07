@@ -6,7 +6,7 @@ import styles from '../styles/Home.module.css'
 import React, { useEffect, useState } from "react";
 
 export default function Home() {
-  console.log(jay[0].cheerup[1].other)
+  console.log(jay[0].cheerup[1][1].other)
   return (
     <div className={styles.container}>
       <Head>
@@ -14,16 +14,8 @@ export default function Home() {
         <meta name="description" content="Study for love" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      {/* {
-        jay.basic.map(i => (
-          <p>{i.text}</p>
-        ))
-      } */}
-      <p>ici 
-        {/* <span>{ jay[0].zz[1].other }</span> */}
+      <p>{ jay[0].cheerup[1][1].other }
       </p>
-      {/* <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} /> */}
       <Image src={guy} alt="Vercel Logo"/>
     </div>
   )
