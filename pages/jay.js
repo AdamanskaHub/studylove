@@ -158,9 +158,13 @@
 
 export const jay = [
 	{
-		id: [
+		intro: [
 			{ 'other': 'KKKKKJJJJHHHH' },
 			{ 'other': 'otherrrruuuuuu' },
+		],
+		cheerup: [
+			{ 'other': 'cheeeer' },
+			{ 'other': 'cheer' },
 		]
 	},
 	{

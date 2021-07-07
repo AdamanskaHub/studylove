@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 import React, { useEffect, useState } from "react";
 
 export default function Home() {
-  console.log(jay[0].id[1].other)
+  console.log(jay[0].cheerup[1].other)
   return (
     <div className={styles.container}>
       <Head>
@@ -20,7 +20,7 @@ export default function Home() {
         ))
       } */}
       <p>ici 
-        <span>{ jay[0].id[1].other }</span>
+        {/* <span>{ jay[0].zz[1].other }</span> */}
       </p>
       {/* <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} /> */}
     </div>
