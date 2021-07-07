@@ -20,4 +20,13 @@ export default function Home() {
     </div>
   )
 }
-// keepGoing[props.level][0][randomNum].pic)
+
+
+/*
+
+[] Tout le texte
+[] Randomiser texte
+[] Composant du texte et perso
+[] Letter by letter effect
+
+*/
