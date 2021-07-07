@@ -159,17 +159,27 @@
 export const jay = [
 	{
 		intro: [
-			{ 'txt': 'Hey, welcome.', 'pic': '/jay_neutral.svg'},
-			{ 'other': 'otherrrruuuuuu' },
+			[ // lv 0
+				[{ txt: "Hey, welcome.", pic: "/jay_neutral.svg" },
+				{ txt: "I'm Jay. I'm here to help you to get stuff done.", pic: "/jay_neutral.svg" },
+				{ txt: "Just pick an activity and for how long you want to do it.", pic: "/jay_neutral.svg" },
+				{ txt: "Let's go", pic: "/jay_neutral.svg" },]
+			],
+			[ // lv 0
+				[{ txt: "Welcome back.", pic: "/jay_neutral.svg" },
+					{ txt: "Welcome backXXX.", pic: "/jay_neutral.svg" },],
+				[{ txt: "Welcome back222.", pic: "/jay_neutral.svg" },
+				{ txt: "Welcome backXXX.2222", pic: "/jay_neutral.svg" },],
+			],
 		],
 		cheerup: [
-			[
-				{ 'other': 'cheeeer' },
-				{ 'other': 'cheer' },
+			[ //lv 0
+				{ "other": "cheeeer" },
+				{ "other": "cheer" },
 			],
-			[
-				{ 'other': 'cheeeer2222' },
-				{ 'other': 'cheer2222' },
+			[ //lv 1
+				{ "other": "cheeeer2222" },
+				{ "other": "cheer2222" },
 			],
 		],
 	},
