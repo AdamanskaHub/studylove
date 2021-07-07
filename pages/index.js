@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import guy from '../public/jay_smirk.svg'
 import { jay } from './jay'
 import styles from '../styles/Home.module.css'
 import React, { useEffect, useState } from "react";
@@ -23,6 +24,7 @@ export default function Home() {
         {/* <span>{ jay[0].zz[1].other }</span> */}
       </p>
       {/* <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} /> */}
+      <Image src={guy} alt="Vercel Logo"/>
     </div>
   )
 }
