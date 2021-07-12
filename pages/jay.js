@@ -21,28 +21,28 @@ export const jay = [
 		study: [
 			[ //lv 0
 				[
-					{ txt: "Welcome back.", pic: "/jay_neutral.svg" },
-					{ txt: "Welcome backXXX.", pic: "/jay_neutral.svg" },
+					{ txt: "study back.", pic: "/jay_neutral.svg" },
+					{ txt: "study backXXX.", pic: "/jay_neutral.svg" },
 				],
 			],
 			[ //lv 1
 				[
-					{ txt: "Welcome back.", pic: "/jay_neutral.svg" },
-					{ txt: "Welcome backXXX.", pic: "/jay_neutral.svg" },
+					{ txt: "study back.", pic: "/jay_neutral.svg" },
+					{ txt: "study backXXX.", pic: "/jay_neutral.svg" },
 				],
 			],
 		],
 		studyOn: [
 			[ //lv 0
 				[
-					{ txt: "Welcome back.", pic: "/jay_neutral.svg" },
-					{ txt: "Welcome backXXX.", pic: "/jay_neutral.svg" },
+					{ txt: "studyON back.", pic: "/jay_neutral.svg" },
+					{ txt: "studyON backXXX.", pic: "/jay_neutral.svg" },
 				],
 			],
 			[ //lv 1
 				[
-					{ txt: "Welcome back.", pic: "/jay_neutral.svg" },
-					{ txt: "Welcome backXXX.", pic: "/jay_neutral.svg" },
+					{ txt: "studyON back.", pic: "/jay_neutral.svg" },
+					{ txt: "studyON backXXX.", pic: "/jay_neutral.svg" },
 				],
 			],
 		],
