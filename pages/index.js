@@ -10,13 +10,16 @@ export default function Home() {
 
   const [level, setLevel] = useState(0)
   const [position, setPosition] = useState(0)
-  const [message, setMessage] = useState('default')
+  const [message, setMessage] = useState('')
   const [pic, setPic] = useState("");
   const [scene, setScene] = useState("study");
 
   useEffect(() => {
     window.addEventListener("keyup", downHandler);
-    nextLine(jay[0],'study', level)
+    
+    setTimeout(()=>{
+      nextLine(jay[0], 'study', level)
+    }, 1000)
   }, [])
 
   function downHandler({ key }) {
@@ -38,6 +41,7 @@ export default function Home() {
     }
     console.log(prop[level][0][0].txt)
     setMessage(prop[level][0][0].txt)
+    
     console.log('message set to => '+message)
   }
 

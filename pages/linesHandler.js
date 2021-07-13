@@ -14,9 +14,8 @@ export default function LineHandler(props) {
 
   return (
     <div className={styles.container}>
-      <Image src={guy} alt="Vercel Logo"/>
-      <p>le message {props.message}</p>
-      {/* <Message message={message} key={message} /> */}
+      <Image src={guy} alt="Vercel Logo" height='500'/>
+      <Message message={props.message} key={props.message} />
     </div>
   )
 }
