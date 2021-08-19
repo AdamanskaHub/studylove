@@ -21,14 +21,18 @@ export const jay = [
 		study: [
 			[ //lv 0
 				[
-					{ txt: "study back.", pic: "/jay_neutral.svg" },
-					{ txt: "study backXXX.", pic: "/jay_neutral.svg" },
+					{ txt: "Lv 0 study back 0.1", pic: "/jay_neutral.svg" },
+					{ txt: "Lv 0 study back 0.2.", pic: "/jay_neutral.svg" },
+				],
+				[
+					{ txt: "Lv 0 study back 1.1", pic: "/jay_neutral.svg" },
+					{ txt: "Lv 0 study back 1.2.", pic: "/jay_neutral.svg" },
 				],
 			],
 			[ //lv 1
 				[
-					{ txt: "study back.", pic: "/jay_neutral.svg" },
-					{ txt: "study backXXX.", pic: "/jay_neutral.svg" },
+					{ txt: "study back. 1.1", pic: "/jay_neutral.svg" },
+					{ txt: "study back. 1.2", pic: "/jay_neutral.svg" },
 				],
 			],
 		],
